@@ -23,13 +23,14 @@ List<Widget> intro = [
   TextContent(
     text:
         '''Java works on different platforms (Windows, Mac,  Linux, Raspberry Pi, etc.)
-1) It is one of the most popular programming language in the world
-2) It is easy to learn and simple to use
-3) It is open-source and free
-4) It is secure, fast and powerful
-5) It has a huge community support (tens of millions of developers)
-6) Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
-7) As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa''',
+1) It is one of the most popular programming language in the world.
+2) It is easy to learn and simple to use.
+3) It is open-source and free.
+4) It is secure, fast and powerful.
+5) It has a huge community support (tens of millions of developers).
+6) Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.
+7) As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa.
+''',
   ),
   SizedBox(
     height: 30.0,
@@ -69,9 +70,11 @@ static variable.
 1) Local Variable:
  A variable declared inside the body of the method is called local variable. You can use this variable only within that method and the other methods in the class aren't even aware that the variable exists.
  A local variable cannot be defined with "static" keyword.
+
 2) Instance Variable:
  A variable declared inside the class but outside the body of the method, is called instance variable. It is not declared as static.
  It is called instance variable because its value is instance specific and is not shared among instances.
+
 3) Static variable:
  A variable which is declared as static is called static variable. It cannot be local. You can create a single copy of static variable and share among all the instances of the class. Memory allocation for static variable happens only once when the class is loaded in the memory.'''),
   SizedBox(
@@ -99,6 +102,7 @@ List<Widget> datatypes = [
   TextContent(
     text:
         '''A Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:
+
 1) Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.
 2) Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.  
 ''',

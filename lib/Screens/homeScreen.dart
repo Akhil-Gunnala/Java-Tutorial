@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text(
           "Java Home",
           style: GoogleFonts.peddana(
-              fontSize: 26.0, fontWeight: FontWeight.bold, wordSpacing: 5.0),
+              fontSize: 36.0, fontWeight: FontWeight.bold, wordSpacing: 5.0),
         ),
         actions: <Widget>[
           Share(),
@@ -49,10 +49,10 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               padding: EdgeInsets.all(10),
               child: Text(
-                '''Java is a programming language and computing platform first released by Sun Microsystems in 1995. There are lots of applications and websites that will not work unless you have Java installed, and more are created every day. Java is fast, secure, and reliable. From laptops to datacenters, game consoles to scientific supercomputers, cell phones to the Internet, Java is everywhere!''',
+                '''Java is a programming language and computing platform first released by Sun Microsystems in 1995.\n There are lots of applications and websites that will not work unless you have Java installed, and more are created every day.\n Java is fast, secure, and reliable. From laptops to datacenters, game consoles to scientific supercomputers, cell phones to the Internet, Java is everywhere!''',
                 style: GoogleFonts.peddana(
-                    fontSize: 20.0,
-                    fontWeight: FontWeight.bold,
+                    fontSize: 24.0,
+                    // fontWeight: FontWeight.bold,
                     wordSpacing: 3.0),
               ),
             ),

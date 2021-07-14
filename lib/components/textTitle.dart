@@ -34,7 +34,7 @@ class TextTitle extends StatelessWidget {
         child: Text(
           title,
           style: GoogleFonts.peddana(
-              fontSize: 26.0, fontWeight: FontWeight.bold, wordSpacing: 2.0),
+              fontSize: 26.0, fontWeight: FontWeight.bold, wordSpacing: 5.0),
         ),
       ),
     );
@@ -50,8 +50,7 @@ class TextContent extends StatelessWidget {
       padding: EdgeInsets.only(left: 15, right: 5),
       child: Text(
         text,
-        style: GoogleFonts.peddana(
-            fontSize: 20, fontWeight: FontWeight.bold, wordSpacing: 2.0),
+        style: GoogleFonts.peddana(fontSize: 24, wordSpacing: 3.0),
       ),
       // color: Color.fromARGB(0000, 0000, 0000, 0000),
     );
@@ -119,7 +118,7 @@ class ExampleContent extends StatelessWidget {
       child: Text(
         text,
         style: GoogleFonts.peddana(
-          fontSize: 20,
+          fontSize: 22,
         ),
       ),
       // color: Color.fromARGB(0000, 0000, 0000, 0000),

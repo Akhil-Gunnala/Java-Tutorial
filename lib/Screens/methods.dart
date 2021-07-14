@@ -17,7 +17,7 @@ class JavaMethods extends StatelessWidget {
         title: Text(
           "Java Methods",
           style: GoogleFonts.peddana(
-              fontSize: 26.0, fontWeight: FontWeight.bold, wordSpacing: 5.0),
+              fontSize: 36.0, fontWeight: FontWeight.bold, wordSpacing: 5.0),
         ),
       ),
       drawer: NavigationDrawer(),
